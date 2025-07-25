@@ -8,35 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* VR Marketplace Brand Colors */
+    --background: 220 13% 8%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 10% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 10% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary Blue Gradient Colors */
+    --primary: 217 91% 60%;        /* #3B82F6 */
+    --primary-dark: 217 91% 55%;   /* #2563EB */
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Accent Purple Gradient Colors */
+    --accent: 300 76% 72%;         /* #D946EF */
+    --accent-dark: 300 76% 67%;    /* #C026D3 */
+    --accent-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 220 15% 20%;
+    --secondary-foreground: 0 0% 98%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 60%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 18%;
+    --input: 220 13% 18%;
+    --ring: 217 91% 60%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* VR-Specific Design Tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 55%));
+    --gradient-accent: linear-gradient(135deg, hsl(300 76% 72%), hsl(300 76% 67%));
+    --gradient-vr: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(300 76% 72%) 100%);
+    --shadow-vr: 0 20px 25px -5px hsla(217, 91%, 60%, 0.1), 0 10px 10px -5px hsla(217, 91%, 60%, 0.04);
+    --glow-primary: 0 0 40px hsla(217, 91%, 60%, 0.3);
+    --glow-accent: 0 0 40px hsla(300, 76%, 72%, 0.3);
 
     --sidebar-background: 0 0% 98%;
 
